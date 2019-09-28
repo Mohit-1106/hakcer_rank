@@ -24,6 +24,7 @@ ar_count = int(input())
 
 ar = list(map(int, input().rstrip().split()))
 # Calling the birthdayCakeCandles and storing it's return value on result
+# new comment
 
 result = birthdayCakeCandles(ar)
 print(result)
