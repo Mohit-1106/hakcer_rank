@@ -1,3 +1,4 @@
+
 #!/bin/python3
 
 import math
@@ -22,6 +23,6 @@ def birthdayCakeCandles(ar):
 ar_count = int(input())
 
 ar = list(map(int, input().rstrip().split()))
-# Calling the function birthdayCakeCandles and storing it's return value on result
+# Calling function birthdayCakeCandles and storing it's return value on result
 result = birthdayCakeCandles(ar)
 print(result)
