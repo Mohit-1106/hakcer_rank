@@ -5,7 +5,7 @@ import os
 import random
 import re
 import sys
-
+# Function for birthday cake candles
 def birthdayCakeCandles(ar):
     n = len(ar)
     c = 0
@@ -22,6 +22,6 @@ def birthdayCakeCandles(ar):
 ar_count = int(input())
 
 ar = list(map(int, input().rstrip().split()))
-
+# Calling the function birthdayCakeCandles and storing it's return value on result
 result = birthdayCakeCandles(ar)
 print(result)
